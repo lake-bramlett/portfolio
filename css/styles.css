@@ -1,3 +1,8 @@
+body {
+  background-image: url('https://i.imgur.com/1DD1zJi.jpg');
+  background-size:cover;
+}
+
 h1.name {
   text-transform: uppercase;
   text-align: center;
@@ -44,12 +49,17 @@ img.icon {
   width: 50px;
   display: inline-block;
   margin-right: 15px;
+  margin-bottom: 15px;
 }
 
 .divider {
   width: 40%;
   padding-top: 10px;
   border-bottom: 1px solid grey;
+}
+
+.socials {
+  text-align: center;
 }
 
 /*Media queries*/
@@ -63,5 +73,13 @@ img.icon {
 @media screen and (max-width: 767px) {
   h2 {
     font-size: 1rem;
+  }
+
+  ol, ul {
+    padding-inline-start: 0px;
+  }
+
+  p, dd, li {
+    font-size: 12px;
   }
 }
