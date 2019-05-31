@@ -30,11 +30,17 @@ h2 {
   text-transform: uppercase;
 }
 
-.my-face {
+img.my-face {
   width: 50%;
   float: left;
   margin-right: 12px;
   border-radius: 25px 0px;
+}
+
+img.icon {
+  width: 50px;
+  display: inline-block;
+  margin-right: 15px;
 }
 
 /*Media queries*/
