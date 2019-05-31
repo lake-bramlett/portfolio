@@ -88,6 +88,11 @@ h2 {
   border-radius: 35px 0px;
 }
 
+
+.icon-container img {
+  float: left;
+}
+
 img.my-face {
   width: 50%;
   float: left;
@@ -152,5 +157,11 @@ dd {
 
   p, dd, li {
     font-size: 12px;
+  }
+}
+
+@media screen and (max-width 509px) {
+  .icon-container img {
+    margin-right: 2px;
   }
 }
