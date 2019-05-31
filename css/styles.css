@@ -3,10 +3,14 @@ body {
   background-size:cover;
 }
 
+h1, h2 {
+    font-family: 'Mitr', sans-serif;
+}
+
 h1.name {
   text-transform: uppercase;
   text-align: center;
-  letter-spacing: -7.5px;
+  letter-spacing: -6.9px;
   font-size: 4.3rem;
 }
 
