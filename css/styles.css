@@ -28,6 +28,9 @@ h1.name .firstname .e {
 h2 {
   text-align: center;
   text-transform: uppercase;
+  color: #ffffff;
+  background-color: #6c6cff;
+  border-radius: 35px 0px;
 }
 
 img.my-face {
@@ -41,6 +44,12 @@ img.icon {
   width: 50px;
   display: inline-block;
   margin-right: 15px;
+}
+
+.divider {
+  width: 40%;
+  padding-top: 10px;
+  border-bottom: 1px solid grey;
 }
 
 /*Media queries*/
