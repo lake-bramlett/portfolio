@@ -2,7 +2,7 @@
 
 #### _31 May 2019, Intro to Programming (Week 1), Portfolio_
 
-#### By _**{List of contributors}**_
+#### By _**Lake Bramlett**_
 
 ## Description
 
