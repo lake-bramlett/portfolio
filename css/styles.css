@@ -1,25 +1,33 @@
 h1.name {
+  text-transform: uppercase;
   text-align: center;
-  text-transform: lowercase;
-  letter-spacing: 4px;
+  letter-spacing: -6px;
   font-size: 4.3rem;
 }
 
-.name-box{
-  margin-left: 22%;
+h1.name .firstname {
+    text-transform: lowercase;
 }
 
-.photo-box {
-  height: 80px;
-  width: 80px;
+h1.name .firstname .l {
+  color: #428cf4;
+}
+
+h1.name .firstname .a {
+  color: #4177f4;
+}
+
+h1.name .firstname .k {
+  color: #4161f4;
+}
+
+h1.name .firstname .e {
+  color: #4146f4;
+}
+
+.my-face {
+  width: 50%;
   float: left;
-}
-
-.lake-photo {
-  width: 100%;
-  border-radius: 25px 0px 0px 25px;
-}
-
-div.row .col-2 {
-  height: 30px;
+  margin-right: 12px;
+  border-radius: 25px 0px;
 }
