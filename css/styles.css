@@ -19,6 +19,7 @@ h1.name {
   letter-spacing: -15.9px;
   font-size: 4.3rem;
   margin-bottom: -.5%;
+  margin-right: 1%;
 }
 
 h1.name .firstname {
@@ -81,6 +82,10 @@ h2 {
 
 .icon-container img {
   float: left;
+}
+
+.icon-container img:nth-child(7) {
+  padding-top: 5%;
 }
 
 img.my-face {
