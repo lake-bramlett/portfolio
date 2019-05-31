@@ -1,9 +1,5 @@
-body {
-  background-color: black;
-}
-
 h1.name {
-  color: white;
+  text-align: center;
   text-transform: lowercase;
   letter-spacing: 4px;
   font-size: 4.3rem;
