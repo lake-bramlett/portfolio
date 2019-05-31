@@ -6,58 +6,24 @@ h1.name {
   color: white;
   text-transform: lowercase;
   letter-spacing: 4px;
+  font-size: 4.3rem;
+}
+
+.name-box{
+  margin-left: 22%;
+}
+
+.photo-box {
+  height: 80px;
+  width: 80px;
+  float: left;
+}
+
+.lake-photo {
+  width: 100%;
+  border-radius: 25px 0px 0px 25px;
 }
 
 div.row .col-2 {
   height: 30px;
-}
-
-/*tile colors*/
-
-.row1 .tile1 {
-  background-color: red;
-}
-
-.row1 .tile2 {
-  background-color: orange;
-}
-
-.row1 .tile3 {
-  background-color: yellow;
-}
-
-.row1 .tile4 {
-  background-color: green;
-}
-
-.row1 .tile5 {
-  background-color: blue;
-}
-
-.row1 .tile6 {
-  background-color: purple;
-}
-
-.row3 .tile1 {
-  background-color: purple;
-}
-
-.row3 .tile2 {
-  background-color: blue;
-}
-
-.row3 .tile3 {
-  background-color: green;
-}
-
-.row3 .tile4 {
-  background-color: yellow;
-}
-
-.row3 .tile5 {
-  background-color: orange;
-}
-
-.row3 .tile6 {
-  background-color: red;
 }
