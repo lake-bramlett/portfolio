@@ -27,6 +27,7 @@ h1.name .firstname .e {
 
 h2 {
   text-align: center;
+  text-transform: uppercase;
 }
 
 .my-face {
@@ -34,4 +35,18 @@ h2 {
   float: left;
   margin-right: 12px;
   border-radius: 25px 0px;
+}
+
+/*Media queries*/
+
+@media screen and (max-width: 991px) {
+  h2 {
+    font-size: 1.7rem;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  h2 {
+    font-size: 1rem;
+  }
 }
