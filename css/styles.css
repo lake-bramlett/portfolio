@@ -7,6 +7,10 @@ h1, h2 {
     font-family: 'Mitr', sans-serif;
 }
 
+dd, li, p {
+  font-weight: 600;
+}
+
 /*headline and name style*/
 
 h1.name {
@@ -37,36 +41,22 @@ h1.name .firstname .e {
   color: #4146f4;
 }
 
-h1.name .lastname .b:hover {
-  color: #393ef7;
+/* This controls the last name css hover effect */
+
+h1.name .lastname .b:hover, h1.name .lastname .t:hover {
+  color: #4178f4;
 }
 
-h1.name .lastname .r:hover {
-  color: #2d33f5;
+h1.name .lastname .r:hover, h1.name .lastname .e:hover {
+  color:#4199f4;
 }
 
-h1.name .lastname .a:hover {
-  color: #1e24f7;
+h1.name .lastname .a:hover, h1.name .lastname .l:hover {
+  color:#41b2f4;
 }
 
 h1.name .lastname .m:hover {
-  color: #1319f5;
-}
-
-h1.name .lastname .l:hover {
-  color:#070ef5;
-}
-
-h1.name .lastname .e:hover {
-  color: #0007f5;
-}
-
-h1.name .lastname .t:hover {
-  color:#0005a3;
-}
-
-h1.name .lastname .t:hover {
-  color: #000372;
+  color: #41dbf4;
 }
 
 /* end */
@@ -137,6 +127,11 @@ dd {
 .socials {
   text-align: center;
 }
+
+ol li {
+  margin-bottom: 2%;
+}
+
 
 /*Media queries*/
 
