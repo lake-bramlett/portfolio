@@ -7,6 +7,8 @@ h1, h2 {
     font-family: 'Mitr', sans-serif;
 }
 
+/*headline and name style*/
+
 h1.name {
   text-transform: uppercase;
   text-align: center;
@@ -66,6 +68,8 @@ h1.name .lastname .t:hover {
   color: #000372;
 }
 
+/* end */
+
 h2 {
   text-align: center;
   text-transform: uppercase;
@@ -88,9 +92,30 @@ img.icon {
   margin-bottom: 15px;
 }
 
+dt {
+  background-color: #4146f4;
+  border-radius: 0px 35px;
+  padding: 10px 10px 10px 22px;
+
+}
+
+dt a {
+  color: #ffffff;
+  text-transform: lowercase;
+}
+
+dt a:hover {
+  color: #000000;
+  text-transform: uppercase;
+}
+
+dd {
+  padding: 0px 15px;
+}
+
 .divider {
   width: 40%;
-  padding-top: 10px;
+  margin: 10px 0px;
   border-bottom: 1px solid grey;
 }
 
@@ -102,7 +127,7 @@ img.icon {
 
 @media screen and (max-width: 991px) {
   h2 {
-    font-size: 1.7rem;
+    font-size: 1.3rem;
   }
 }
 
