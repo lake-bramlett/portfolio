@@ -10,7 +10,7 @@ h1, h2 {
 h1.name {
   text-transform: uppercase;
   text-align: center;
-  letter-spacing: -6.9px;
+  letter-spacing: -15.9px;
   font-size: 4.3rem;
 }
 
@@ -32,6 +32,38 @@ h1.name .firstname .k {
 
 h1.name .firstname .e {
   color: #4146f4;
+}
+
+h1.name .lastname .b:hover {
+  color: #393ef7;
+}
+
+h1.name .lastname .r:hover {
+  color: #2d33f5;
+}
+
+h1.name .lastname .a:hover {
+  color: #1e24f7;
+}
+
+h1.name .lastname .m:hover {
+  color: #1319f5;
+}
+
+h1.name .lastname .l:hover {
+  color:#070ef5;
+}
+
+h1.name .lastname .e:hover {
+  color: #0007f5;
+}
+
+h1.name .lastname .t:hover {
+  color:#0005a3;
+}
+
+h1.name .lastname .t:hover {
+  color: #000372;
 }
 
 h2 {
