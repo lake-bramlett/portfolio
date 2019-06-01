@@ -6,7 +6,7 @@
 
 ## Description
 
-_A singe page portfolio listing projects, skills, and an 'about me' section_
+_A singe page portfolio listing projects, skills, and an 'about me' section. See the full site on https://lake-bramlett.github.io/portfolio. Best viewed in Google Chrome. _
 
 ## Setup/Installation Requirements
 
